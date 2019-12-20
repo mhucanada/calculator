@@ -8,44 +8,44 @@
 </head>
 
 <body>
-    <div id="calcmain">
-        <div class="calculator-screen"></div>
-        <div class="buttons"id="buttons">
-            <input TYPE="button" class="input" id="op" value="Rad">
-            <input TYPE="button" class="input" id="op" value="Deg">
-            <input TYPE="button" class="input" id="op" value="x!">
-            <input TYPE="button" class="input" id="op" value="(">
-            <input TYPE="button" class="input" id="op" value=")">
-            <input TYPE="button" class="input" id="op"value="%">
-            <input TYPE="button" class="input" id="op" value="CE">
-            <input TYPE="button" class="input" id="op" value="Inv">
-            <input TYPE="button" class="input" id="op" value="sin">
-            <input TYPE="button" class="input" id="op" value="ln">
-            <input TYPE="button" class="input" id="nums" value="7">
-            <input TYPE="button" class="input" id="nums" value="8">
-            <input TYPE="button" class="input" id="nums" value="9">
-            <input TYPE="button" class="input" id="op" value="/">
-            <input TYPE="button" class="input" id="op" value="π">
-            <input TYPE="button" class="input" id="op" value="cos">
-            <input TYPE="button" class="input" id="op" value="log">
-            <input TYPE="button" class="input" id="nums" value="4">
-            <input TYPE="button" class="input" id="nums" value="5">
-            <input TYPE="button" class="input" id="nums" value="6">
-            <input TYPE="button" class="input" id="op" value="*">
-            <input TYPE="button" class="input" id="op" value="e">
-            <input TYPE="button" class="input" id="op" value="tan">
-            <input TYPE="button" class="input" id="op" value="√">
-            <input TYPE="button" class="input" id="nums" value="1">
-            <input TYPE="button" class="input" id="nums" value="2">
-            <input TYPE="button" class="input" id="nums" value="3">
-            <input TYPE="button" class="input" id="op" value="-">
-            <input TYPE="button" class="input" id="op" value="Ans">
-            <input TYPE="button" class="input" id="op" value="EXP">
-            <input TYPE="button" class="input" id="op" value="x^y">
-            <input TYPE="button" class="input" id="op" value="0">
-            <input TYPE="button" class="input" id="op" value=".">
-            <input TYPE="button" class="input" id="equals" value="=">
-            <input TYPE="button" class="input" id="op" value="+">
+    <div id="calcmain" class="calcmain">
+        <div class="calculator-screen">0</div>
+        <div class="buttons" id="buttons"> </button>
+            <button class="input" id="ops" data-action="deg">Deg</button>
+            <button class="input" id="ops" data-action="rad">Rad</button>
+            <button class="input" id="ops" data-action="x!">x!</button>
+            <button class="input" id="ops" data-action="(">(</button>
+            <button class="input" id="ops" data-action=")">)</button>
+            <button class="input" id="ops" data-action="%">%</button>
+            <button class="input" id="ops" data-action="clear">CE</button>
+            <button class="input" id="ops" data-action="Inv">Inv</button>
+            <button class="input" id="ops" data-action="sin">sin</button>
+            <button class="input" id="ops" data-action="ln">ln</button>
+            <button class="input" id="nums">7</button>
+            <button class="input" id="nums">8</button>
+            <button class="input" id="nums">9</button>
+            <button class="input" id="ops" data-action="divide">/</button>
+            <button class="input" id="ops" data-action="pi">π</button>
+            <button class="input" id="ops" data-action="cos">cos</button>
+            <button class="input" id="ops" data-action="log">log</button>
+            <button class="input" id="nums">4</button>
+            <button class="input" id="nums">5</button>
+            <button class="input" id="nums">6</button>
+            <button class="input" id="ops" data-action="multiply">*</button>
+            <button class="input" id="ops" data-action="e">e</button>
+            <button class="input" id="ops" data-action="tan">tan</button>
+            <button class="input" id="ops" data-action="sqrt">√</button>
+            <button class="input" id="nums">1</button>
+            <button class="input" id="nums">2</button>
+            <button class="input" id="nums">3</button>
+            <button class="input" id="ops" data-action="subtract">-</button>
+            <button class="input" id="ops" data-action="ans">Ans</button>
+            <button class="input" id="ops" data-action="exp">EXP</button>
+            <button class="input" id="ops" data-action="pwr">x^y</button>
+            <button class="input" id="nums">0</button>
+            <button class="input" id="nums" data-action="decimal">.</button>
+            <button class="input" id="equals" data-action="calculate">=</button>
+            <button class="input" id="ops" data-action="add">+</button>
         </div>
     </div>
     <script src="calculator.js"></script>
